@@ -52,6 +52,3 @@ def pick_headers(headers, keys):
 def remove_content_encoding(headers):
     headers.pop('content-encoding', None)
     return headers
-
-if __name__ == '__main__':
-    app.run(port=80)
